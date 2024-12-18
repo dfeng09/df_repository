@@ -1,4 +1,4 @@
-from student import Student
+from class_method import Student
 
 s1 = Student('keqing', 'female')
 s2 = Student.from_string('shogun female')
