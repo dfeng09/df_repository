@@ -1,11 +1,13 @@
-from interface_test import *
+from .a12_22 import interface_test
 
 def test(x: int, y: int) -> None:
-    r = Rectangle(x,y)
+    r = interface_test.Rectangle(x, y)
     a = r.area()
     b = r.perimeter()
+    print(f'the length of {a}, is {b}')
 
 if __name__ == '__main__':
-    test()
+    test(5, 10)
+
     
     
