@@ -1,15 +1,12 @@
-import unittest
+import sys
+sys.path.append('a12_22')
 from interface_test import Rectangle
 
-class TestRectangle(unittest.TestCase):
-    def test_area(self):
-        r = Rectangle(5, 10)
-        self.assertEqual(r.area(), 50)
-
-    def test_perimeter(self):
-        r = Rectangle(5, 10)
-        self.assertEqual(r.perimeter(), 30)
+def test(x: int, y: int) -> None:
+    r = Rectangle(x, y)
+    a = r.area()
+    b = r.perimeter()
+    print(f'the length of {a}, is {b}')
 
 if __name__ == '__main__':
-    unittest.main()
-
+    test(5, 10)

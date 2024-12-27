@@ -23,6 +23,3 @@ class Rectangle(Shape):
     def perimeter(self):
         return 2 * (self.length + self.width)
     
-if __name__ == '__main__':
-    rect = Rectangle(3, 4)
-    print(rect.area())

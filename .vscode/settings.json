@@ -2,6 +2,7 @@
     "python.pythonPath": "D:\\Anaconda\\envs\\myenv\\python.exe",
     "marscode.chatLanguage": "cn",
     "python.analysis.extraPaths": [
-        "./12_22"
+        "./12_22",
+        "./a12_22"
     ]
 }
